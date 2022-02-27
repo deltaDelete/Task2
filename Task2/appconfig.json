@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=task2db;Trusted_Connection=True;"
+  }
+}
