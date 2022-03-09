@@ -73,6 +73,5 @@ namespace Task2
             }
         }
         #endregion
-
     }
 }

@@ -45,6 +45,14 @@ namespace Task2.Templates
             if (MainGrid.ItemsSource is List<Agent>)
                 new Dialogs.AddAgentDialog().Show();
         }
+        private void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (MainGrid.SelectedItem == null) return;
+            if (MainGrid.ItemsSource is List<Client>)
+                new Dialogs.EditClientDialog((Client)MainGrid.SelectedItem).Show();
+            if (MainGrid.ItemsSource is List<Agent>)
+                new Dialogs.EditAgentDialog((Agent)MainGrid.SelectedItem).Show();
+        }
         private void RemoveButton_Click(object sender, RoutedEventArgs e)
         {
             if (MainGrid.SelectedItem == null) return;

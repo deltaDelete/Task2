@@ -8,12 +8,12 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TabControl TabStripPlacement="Left">
-            <TabItem Header="Клиенты">
+            <TabItem Header="Клиенты" Padding="40 10">
                 <TabItem.Content>
                     <templates:DataPage x:Name="ClientsGrid" ItemsSource="{Binding Clients}"/>
                 </TabItem.Content>
             </TabItem>
-            <TabItem Header="Риэлтор">
+            <TabItem Header="Риэлтор" Padding="40 10">
                 <TabItem.Content>
                     <templates:DataPage x:Name="AgentsGrid" ItemsSource="{Binding Agents}"/>
                 </TabItem.Content>

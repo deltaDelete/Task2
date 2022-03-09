@@ -19,9 +19,10 @@
         <ScrollViewer Grid.Row="1">
             <DataGrid x:Name="MainGrid" ItemsSource="{Binding ItemsSource, RelativeSource={RelativeSource AncestorType=local:DataPage}}" IsManipulationEnabled="False" IsReadOnly="True"/>
         </ScrollViewer>
-        <StackPanel Orientation="Horizontal" Margin="0,0,20,10" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.Row="1" Height="42" Width="84">
-            <Button x:Name="RemoveButton" Margin="5" Height="32" Width="32" Content="{StaticResource RemoveIcon}" Click="RemoveButton_Click"/>
-            <Button x:Name="AddButton" Margin="5" Height="32" Width="32" Content="{StaticResource AddIcon}" Click="AddButton_Click"/>
+        <StackPanel Orientation="Horizontal" Margin="0,0,20,10" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.Row="1" Height="42" Width="128">
+            <Button x:Name="RemoveButton" Margin="5" Height="32" Width="32" Content="{DynamicResource RemoveIcon}" Click="RemoveButton_Click"/>
+            <Button x:Name="EditButton" Margin="5" Height="32" Width="32" Content="{DynamicResource EditIcon}" Click="EditButton_Click"/>
+            <Button x:Name="AddButton" Margin="5" Height="32" Width="32" Content="{DynamicResource AddIcon}" Click="AddButton_Click"/>
         </StackPanel>
     </Grid>
 </UserControl>

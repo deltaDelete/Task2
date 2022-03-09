@@ -5,35 +5,47 @@
             <TranslateTransform X="0" Y="0"/>
         </Canvas.RenderTransform>
         <Canvas.Resources/>
-        <!--Unknown tag: sodipodi:namedview-->
-        <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path2" Fill="#000000">
+        <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Fill="#000000">
             <Path.Data>
                 <PathGeometry Figures="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" FillRule="NonZero"/>
             </Path.Data>
         </Path>
-        <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path4">
+        <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
             <Path.Data>
                 <PathGeometry Figures="M0 0h24v24H0z" FillRule="NonZero"/>
             </Path.Data>
         </Path>
-        <!--Unknown tag: metadata-->
     </Canvas>
-    <Canvas x:Key="RemoveIcon" Name="svg939" Width="24" Height="24">
+    <Canvas x:Key="RemoveIcon" Width="24" Height="24">
         <Canvas.RenderTransform>
             <TranslateTransform X="0" Y="0"/>
         </Canvas.RenderTransform>
         <Canvas.Resources/>
-        <!--Unknown tag: sodipodi:namedview-->
-        <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path935" Fill="#000000">
+        <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Fill="#000000">
             <Path.Data>
                 <PathGeometry Figures="M19 13H5v-2h14v2z" FillRule="NonZero"/>
             </Path.Data>
         </Path>
-        <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path937">
+        <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
             <Path.Data>
                 <PathGeometry Figures="M0 0h24v24H0z" FillRule="NonZero"/>
             </Path.Data>
         </Path>
-        <!--Unknown tag: metadata-->
+    </Canvas>
+    <Canvas x:Key="EditIcon" Width="24" Height="24">
+        <Canvas.RenderTransform>
+            <TranslateTransform X="0" Y="0"/>
+        </Canvas.RenderTransform>
+        <Canvas.Resources/>
+        <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Fill="#000000">
+            <Path.Data>
+                <PathGeometry Figures="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" FillRule="NonZero"/>
+            </Path.Data>
+        </Path>
+        <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+            <Path.Data>
+                <PathGeometry Figures="M0 0h24v24H0z" FillRule="NonZero"/>
+            </Path.Data>
+        </Path>
     </Canvas>
 </ResourceDictionary>
